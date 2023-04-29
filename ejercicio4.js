@@ -31,7 +31,7 @@ else{
     
     /* Verificamos si podemos hacer Sopa o no */
     if (hayVerduras&&(hayCarne||hayPollo)&&hayCondimentos){
-        document.write("Hay SOPA con Carne o Pollo mas Condimentos");
+        document.write("Hay SOPA con Carne o Pollo, mas Condimentos");
     }
     else if (hayVerduras&&(hayCarne||hayPollo)&&hayCuboDeCaldo){
         document.write("Hay SOPA con Carne o Pollo y Cubo de Caldo");
